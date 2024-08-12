@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(white,blue);
+}
+
+header {
+    background:red;
+    color:yellow;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    padding-right: 20px;
+    height: 60px;
+}
+.location{
+    margin-left: 75%;
+}
+
+.logo h1 {
+    margin: 0px;
+    font-size: 24px;
+}
+
+.nav-right{
+    font-size: 15px;
+    color:yellow;
+}
+.bottomBar{
+    z-index: 1;
+    justify-content: center;
+    display: flex;
+    background-color:red;
+    width: 600px;
+    height: 40px;
+    margin-left: 26%;
+    margin-top: 0px;
+    font-size: 150%;
+    border-radius: 30px;
+    color: yellow;
+    
+}
+.homeButton{
+    padding-right: 90px;
+    
+}
+.movieButton{
+    padding-right: 90px;
+    
+}
+/* Ensure the slides container and each slide fit properly */
+/* Ensure the slides container and each slide fit properly */
+.slides {
+    display: flex;
+    overflow: hidden;
+    height: 300px;
+    position: relative;
+    width: 100%;
+}
+
+.slide1, .slide2, .slide3, .slide4, .slide5 {
+    background-color: blue;
+    flex: 0 0 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    line-height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide1 { background-color: blue; }
+.slide2 { background-color: green; }
+.slide3 { background-color: red; }
+.slide4 { background-color: yellow; }
+.slide5 { background-color: purple; }
+
+button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 24px;
+    border-radius: 3px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.content {
+    background-color: white;
+    height: 125px;
+    text-align: center;
+    line-height: 125px;
+}
